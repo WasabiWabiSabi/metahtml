@@ -52,6 +52,8 @@ class Extractor(BaseExtractor):
         ( 'bnr.de', r'^/aktuell/aktiv-gegen-rechts/zivilgesellschaft/?$'),
         ( 'bnr.de', r'^/aktiv/initiativen-gegen-rechts/?$'),
         ( 'boilingsteam.com', r'^/tutorial-and-guides/?$' ),
+        ( 'bnr.de', r'^/aktuell/aktiv-gegen-rechts/zivilgesellschaft/?$'),
+        ( 'bnr.de', r'^/aktiv/initiativen-gegen-rechts/?$'),
         ( 'breitbart.com', r'^/national-security/?$' ),
         ( 'channelb.org', r'^/sc/photo/?$' ),
         ( 'cnbc.com', r'^/2020-elections/?$' ),
