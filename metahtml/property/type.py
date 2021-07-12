@@ -38,6 +38,7 @@ class Extractor(BaseExtractor):
         # https://benjamineidam.com/atomwaffe
         # https://aktuellesenergiejournal.wordpress.com/kernenergie/
         # https://opensource.org/welcomeTeckids
+        # https://research.swtch.com/hwmm
         ( None, r'^/[a-zA-Z]*/?$' ), 
 
         # hostname specific regexs
@@ -50,6 +51,7 @@ class Extractor(BaseExtractor):
         ( 'be.la7.it', r'/parlano-gli-esperti/?$' ),
         ( 'bnr.de', r'^/aktuell/aktiv-gegen-rechts/zivilgesellschaft/?$'),
         ( 'bnr.de', r'^/aktiv/initiativen-gegen-rechts/?$'),
+        ( 'boilingsteam.com', r'^/tutorial-and-guides/?$' ),
         ( 'breitbart.com', r'^/national-security/?$' ),
         ( 'channelb.org', r'^/sc/photo/?$' ),
         ( 'cnbc.com', r'^/2020-elections/?$' ),
